@@ -46,7 +46,7 @@
         </com.google.android.material.textfield.TextInputLayout>
 
         <com.google.android.material.textfield.TextInputLayout
-            android:id="@+id/emailTextFiel"
+            android:id="@+id/emailTextField"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="Email"
@@ -60,7 +60,7 @@
 
 
         <com.google.android.material.textfield.TextInputLayout
-            android:id="@+id/passwordTextFiel"
+            android:id="@+id/passwordTextField"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="Contraseña"
@@ -74,7 +74,7 @@
         </com.google.android.material.textfield.TextInputLayout>
 
         <com.google.android.material.textfield.TextInputLayout
-            android:id="@+id/confirmarTextFiel"
+            android:id="@+id/confirmarTextField"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="Confirmar contraseña"
@@ -98,6 +98,7 @@
             android:layout_marginTop="12dp"/>
 
         <TextView
+            android:id="@+id/labelNuevoUser"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:textAlignment="center"
@@ -107,7 +108,7 @@
             android:clickable="true"
             android:focusable="true"
             android:textStyle="bold"
-            android:text="Ya tienes una cuenta? Inicia sesión"/>
+            android:text="Ya tienes una cuenta? Inicia sesión!"/>
 
 
 
